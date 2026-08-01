@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chitose Sushi | Delivery Japonês em Campinas</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;600;700&display=swap');
+    body { font-family: 'Space Grotesk', sans-serif; background-color: #09090b; color: #fafafa; }
+    .glass { background: rgba(255, 255, 255, 0.03); backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.05); }
+    .accent { color: #f43f5e; }
+    .bg-accent { background-color: #f43f5e; }
+  </style>
+</head>
+<body class="relative selection:bg-rose-500 selection:text-white">
+  <!-- Navbar -->
+  <nav class="fixed w-full z-50 glass border-b-0">
+    <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+      <span class="font-bold text-2xl tracking-tighter uppercase">Chitose<span class="accent">.</span></span>
+      <ul class="hidden md:flex gap-10 text-sm font-medium tracking-wide uppercase text-zinc-400">
+        <li><a href="#tradicao" class="hover:text-white transition">Tradição</a></li>
+        <li><a href="#omakase" class="hover:text-white transition">Menu</a></li>
+        <li><a href="#contato" class="hover:text-white transition">Contato</a></li>
+      </ul>
+      <a href="https://wa.me/5519981953577" class="bg-white text-black px-6 py-2 rounded-none font-semibold text-sm hover:bg-rose-500 hover:text-white transition-colors duration-300">Delivery</a>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <header class="relative min-h-[100dvh] flex items-center justify-center overflow-hidden pt-20">
+    <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1579871494447-9811cf80d66c?auto=format&fit=crop&q=80&w=2000')] bg-cover bg-center opacity-30 mix-blend-luminosity"></div>
+    <div class="absolute inset-0 bg-gradient-to-b from-transparent to-[#09090b]"></div>
+    
+    <div class="relative z-10 max-w-5xl mx-auto px-6 text-center">
+      <div class="text-[11px] uppercase tracking-[0.3em] text-rose-500 font-semibold mb-6">Alta Gastronomia Japonesa</div>
+      <h1 class="text-5xl md:text-8xl font-bold tracking-tighter mb-8 leading-[1.1]">Precisão e Frescor.<br>Em sua casa.</h1>
+      <p class="text-lg md:text-xl text-zinc-400 mb-12 max-w-2xl mx-auto leading-relaxed">O rigor das técnicas tradicionais japonesas combinado aos melhores ingredientes, preparado sob demanda para o seu delivery em Campinas e região.</p>
+      <a href="https://wa.me/5519981953577" class="inline-flex items-center gap-3 bg-rose-500 text-white px-10 py-5 font-semibold text-lg hover:bg-white hover:text-black transition-all duration-300">
+        Ver Cardápio <i class="ph ph-arrow-right"></i>
+      </a>
+    </div>
+  </header>
+
+  <!-- Tradição -->
+  <section id="tradicao" class="py-32 px-6">
+    <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-20 items-center">
+      <div>
+        <h2 class="text-4xl font-bold tracking-tighter mb-6">O corte perfeito não aceita atalhos.</h2>
+        <p class="text-zinc-400 mb-6 leading-relaxed text-lg">No Chitose Sushi, acreditamos que o delivery não deve comprometer a qualidade da experiência. Cada peça é moldada à mão no momento do pedido.</p>
+        <p class="text-zinc-400 leading-relaxed text-lg">Nossos peixes chegam frescos diariamente e nosso arroz é temperado na temperatura exata, respeitando os séculos de tradição Edo-mae.</p>
+      </div>
+      <div class="grid grid-cols-2 gap-4">
+        <div class="h-64 glass p-1">
+          <img src="https://images.unsplash.com/photo-1611143669185-af224c5e3252?auto=format&fit=crop&q=80&w=600" alt="Sushi chef" class="w-full h-full object-cover filter grayscale hover:grayscale-0 transition duration-700">
+        </div>
+        <div class="h-64 glass p-1 translate-y-12">
+          <img src="https://images.unsplash.com/photo-1553621042-f6e147245754?auto=format&fit=crop&q=80&w=600" alt="Sashimi" class="w-full h-full object-cover filter grayscale hover:grayscale-0 transition duration-700">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Omakase / Menu -->
+  <section id="omakase" class="py-32 px-6 bg-zinc-950">
+    <div class="max-w-7xl mx-auto">
+      <div class="flex flex-col md:flex-row justify-between items-end mb-16 gap-8">
+        <div>
+          <h2 class="text-4xl font-bold tracking-tighter mb-4">Experiência Chitose</h2>
+          <p class="text-zinc-500 max-w-md">Seleções montadas para entregar a verdadeira essência da culinária asiática diretamente para você.</p>
+        </div>
+        <a href="https://wa.me/5519981953577" class="text-rose-500 font-semibold tracking-wide uppercase text-sm hover:text-white transition">Pedir pelo WhatsApp &rarr;</a>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-1">
+        <div class="glass p-10 group hover:bg-white/5 transition duration-500">
+          <div class="text-4xl font-light text-zinc-700 mb-6 group-hover:text-rose-500 transition">01</div>
+          <h3 class="text-2xl font-semibold mb-4">Combinados Premium</h3>
+          <p class="text-zinc-400">Seleção criteriosa do Chef com os melhores cortes do dia. Salmão, Atum, Peixe Branco e iguarias sazonais.</p>
+        </div>
+        <div class="glass p-10 group hover:bg-white/5 transition duration-500">
+          <div class="text-4xl font-light text-zinc-700 mb-6 group-hover:text-rose-500 transition">02</div>
+          <h3 class="text-2xl font-semibold mb-4">Sashimis Especiais</h3>
+          <p class="text-zinc-400">Cortes espessos e precisos que derretem na boca. A expressão mais pura do sabor do mar.</p>
+        </div>
+        <div class="glass p-10 group hover:bg-white/5 transition duration-500">
+          <div class="text-4xl font-light text-zinc-700 mb-6 group-hover:text-rose-500 transition">03</div>
+          <h3 class="text-2xl font-semibold mb-4">Pratos Quentes</h3>
+          <p class="text-zinc-400">Yakisobas artesanais, Teppanyakis e empanados crocantes preparados na wok com maestria.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Localização / Contato -->
+  <section id="contato" class="py-32 px-6">
+    <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-20">
+      <div>
+        <h2 class="text-4xl font-bold tracking-tighter mb-10">Onde estamos</h2>
+        <div class="space-y-8 text-zinc-400 text-lg">
+          <div class="flex items-start gap-4">
+            <i class="ph ph-map-pin text-2xl text-rose-500"></i>
+            <p>Av. Joaquim Payolla, 775 - Jd da figueira<br>Campinas - SP, 13040-086</p>
+          </div>
+          <div class="flex items-start gap-4">
+            <i class="ph ph-whatsapp-logo text-2xl text-rose-500"></i>
+            <p>(19) 98195-3577</p>
+          </div>
+          <div class="flex items-start gap-4">
+            <i class="ph ph-clock text-2xl text-rose-500"></i>
+            <p>Delivery: Terça a Domingo<br>18:30 às 23:00</p>
+          </div>
+        </div>
+      </div>
+      <div class="h-96 glass p-2 relative group">
+        <div class="absolute inset-0 bg-rose-500/10 opacity-0 group-hover:opacity-100 transition duration-500 z-10 pointer-events-none"></div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3674.31649987!2d-47.05!3d-22.93!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjLCsDU1JzQ4LjAiUyA0N8KwMDMnMDAuMCJX!5e0!3m2!1spt-BR!2sbr!4v1620000000000!5m2!1spt-BR!2sbr" width="100%" height="100%" style="border:0; filter: grayscale(1) invert(0.9) contrast(1.2);" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- Rodapé -->
+  <footer class="border-t border-white/10 pt-20 pb-40 px-6 text-center bg-zinc-950">
+    <div class="font-bold text-3xl tracking-tighter uppercase mb-6">Chitose<span class="accent">.</span></div>
+    <div class="text-sm text-zinc-600 max-w-md mx-auto">
+      <p>Prévia conceitual produzida por Lucas Murbach de Oiveira. Não é um site oficial deste estabelecimento.</p>
+    </div>
+  </footer>
+
+  <!-- Sticky Bar -->
+  <div id="sticky-bar" class="fixed bottom-0 left-0 w-full pt-20 pb-10 px-6 bg-gradient-to-t from-black via-black/90 to-transparent flex justify-center opacity-0 translate-y-4 transition-all duration-700 pointer-events-none z-50">
+    <div class="text-white text-xl md:text-3xl font-light tracking-wide pointer-events-auto border-b border-rose-500 pb-1">
+      Para mais informações entre em contato: <span class="font-bold">(19) 97131-8109</span>
+    </div>
+  </div>
+
+  <script>
+    window.addEventListener('scroll', () => {
+      const bar = document.getElementById('sticky-bar');
+      if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight - 250) {
+        bar.classList.remove('opacity-0', 'translate-y-4');
+        bar.classList.add('opacity-100', 'translate-y-0');
+      } else {
+        bar.classList.add('opacity-0', 'translate-y-4');
+        bar.classList.remove('opacity-100', 'translate-y-0');
+      }
+    });
+  </script>
+</body>
+</html>
